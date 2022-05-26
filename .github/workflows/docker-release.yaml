@@ -29,3 +29,4 @@ jobs:
             ghcr.io/${{ github.repository }}:${{ steps.versions.outputs.patch }}
             ghcr.io/${{ github.repository }}:${{ steps.versions.outputs.minor }}
             ghcr.io/${{ github.repository }}:${{ steps.versions.outputs.major }}
+            ghcr.io/${{ github.repository }}:latest
